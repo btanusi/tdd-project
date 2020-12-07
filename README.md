@@ -55,14 +55,13 @@ Another option would be to use `BigDecimal` but then the data type is a bit hard
     - then I should deny them
 
 1. As a lender, I want to calculate a monthly mortgage payment so that I can assess whether or not an applicant is a good candidate to offer a loan to
-    - Given that I have an equation to calculate monthly mortgage payments:
-        ``` 			
+    - Given that I have an equation to calculate monthly mortgage payments:		
         monthlyPayment = principal * ((interestRate/12) * (1+(interestRate/12))^numberOfPayments) / ((1 + (interestRate/12))^numberOfPayments - 1)
     - when I am requested of a loan for a given principal amount, monthly interest rate, and # of payments,
     - then I can calculate the minimum monthly mortgage payment for a LoanApplicant
     - Ex. calculating monthly mortgage for a principal amount of 250000, annualRate of .04, numPayments of 360 should return `1193.54`
     
-1. As a lender, I want to determine whether or not an applicant is a good candidate to offer a loan to so that I can qualify or deny them for a requested loan amount
+1. As a lender, I want to determine whether or not an applicant is a good candidate to offer a loan to so that I can qualify or deny them for a requested lon amount
     - Given that a loanApplicant has a good debt-to-income ratio (debt-to-income including requested mortgage < 36%), credit score above 620, an amountSaved >= 25% of the requested loanAmount
     - When they apply for a loan
     - then I should qualify them
