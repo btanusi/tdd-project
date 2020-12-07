@@ -42,4 +42,19 @@ public class AdminTest {
     // total # of days off remaining
     // and total # of days requested.
 
+    /*
+    Given I am an admin,
+    when I click on a specific user's request,
+    I want to be able to CONFIRM or DENY said request.
+
+    Given I am an admin,
+    I want to be able to CLOSE a user's request for leave,
+    indicate that it was CONFIRMED or DENIED,
+    and optionally add a message to explain the decision to the Airman.
+
+    Given I am an admin,
+    when I select an Airman by their name or ID,
+    I can see how much leave they have remaining.
+     */
+
 }
